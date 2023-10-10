@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+/**
+ * main - Entry point
+ *
+ * Description: prints the lowercase alphabet in reverse, followed by a new line.
+ *
+ * Return: Alys 0 (Sccess)
+ *
+ **/
+
+int main(void)
+{
+        char ch = 'z';
+        
+	while (ch >= 'a')
+        {
+                putchar(ch);
+                ch--;
+        }
+        putchar('\n');
+        return (0);
+}
