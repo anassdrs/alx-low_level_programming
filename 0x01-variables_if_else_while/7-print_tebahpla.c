@@ -3,21 +3,21 @@
 /**
  * main - Entry point
  *
- * Description: prints the lowercase alphabet in reverse, followed by a new line.
+ * Description: prints the lowercase alphabet in reverse.
  *
- * Return: Alys 0 (Sccess)
+ * Return: Always 0 (Sccess)
  *
  **/
 
 int main(void)
 {
-        char ch = 'z';
-        
+	char ch = 'z';
+
 	while (ch >= 'a')
-        {
-                putchar(ch);
-                ch--;
-        }
-        putchar('\n');
-        return (0);
+	{
+		putchar(ch);
+		ch--;
+	}
+	putchar('\n');
+	return (0);
 }
