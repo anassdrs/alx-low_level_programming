@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
  * main - A program that prints all possible combinations
  * of two two-digit numbers.
@@ -21,8 +21,8 @@ int main(void)
 				putchar(b % 10 + '0');
 				if (a != 98 && b != 99)
 				{
-				putchar(' ');
 				putchar(',');
+				putchar(' ');
 				}
 			}
 		}
